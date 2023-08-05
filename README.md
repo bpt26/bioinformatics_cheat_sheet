@@ -24,7 +24,7 @@ conda activate bioinformatics`
 
 Here are the tools that the code in this repository requires. I've added a description and link to each tool's documentation below:
 
-`conda install -c bioconda samtools bedtools biopython gtfparse  
+`conda install -c bioconda samtools bedtools biopython gtfparse    
 pip install gseapy`
 
 | Package | Description | Link to Documentation |
@@ -37,10 +37,10 @@ pip install gseapy`
 
 You'll also want to ensure that these are properly installed, which you can accomplish by running the following code snippet:
 
-`samtools --version
-bedtools --version
-python -c "import Bio; print(Bio.__version__)"
-python -c "import gtfparse; print(gtfparse.__version__)"
-gseapy --version`
+`samtools --version  
+bedtools --version  
+python -c "import Bio; print(Bio.__version__)"  
+python -c "import gtfparse; print(gtfparse.__version__)"  
+gseapy --version  `
 
 Under this setup, you'll need to activate the environment (conda activate myenv) every time you want to use these tools and packages.
