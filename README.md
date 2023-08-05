@@ -21,8 +21,8 @@ bash Miniforge3-latest-MacOSX-x86_64.sh  # Replace with the actual filename
 
 We will call this environment "bioinformatics":
 ```
-mamba create -n bioinformatics  
-mamba activate bioinformatics
+conda create -n bioinformatics  
+conda activate bioinformatics
 ```
 
 ### Install and Verify Tools:
