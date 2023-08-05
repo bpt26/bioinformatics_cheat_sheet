@@ -17,14 +17,14 @@ To ensure that downloads here don't interfere with your current working environm
 ### Create and Activate Conda Environment:  
 
 We will call this environment "bioinformatics":
-`conda create -n bioinformatics  
+`conda create -n bioinformatics  <br>
 conda activate bioinformatics`
 
 ### Install and Verify Tools:
 
 Here are the tools that the code in this repository requires. I've added a description and link to each tool's documentation below:
 
-`conda install -c bioconda samtools bedtools biopython gtfparse    
+`conda install -c bioconda samtools bedtools biopython gtfparse    <br>
 pip install gseapy`
 
 | Package | Description | Link to Documentation |
@@ -37,10 +37,10 @@ pip install gseapy`
 
 You'll also want to ensure that these are properly installed, which you can accomplish by running the following code snippet:
 
-`samtools --version  
-bedtools --version  
-python -c "import Bio; print(Bio.__version__)"  
-python -c "import gtfparse; print(gtfparse.__version__)"  
-gseapy --version  `
+`samtools --version  <br>
+bedtools --version  <br>
+python -c "import Bio; print(Bio.__version__)"  <br>
+python -c "import gtfparse; print(gtfparse.__version__)"  <br>
+gseapy --version  <br>`
 
 Under this setup, you'll need to activate the environment (conda activate myenv) every time you want to use these tools and packages.
