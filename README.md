@@ -11,20 +11,20 @@ To ensure that downloads here don't interfere with your current working environm
 1. Download the Miniforge installer for your platform from the Miniforge releases page: [Miniforge Releases](https://github.com/conda-forge/miniforge/releases)
 2. Open a terminal or command prompt.
 3. Navigate to the directory containing the downloaded installer.
-4. Run the installer script:
+4. Run the installer script:  
    `bash Miniforge3-latest-MacOSX-x86_64.sh  # Replace with the actual filename`
 
 ### Create and Activate Conda Environment:  
 
 We will call this environment "bioinformatics":
-`conda create -n bioinformatics  <br>
+`conda create -n bioinformatics  
 conda activate bioinformatics`
 
 ### Install and Verify Tools:
 
 Here are the tools that the code in this repository requires. I've added a description and link to each tool's documentation below:
 
-`conda install -c bioconda samtools bedtools biopython gtfparse    <br>
+`conda install -c bioconda samtools bedtools biopython gtfparse  
 pip install gseapy`
 
 | Package | Description | Link to Documentation |
