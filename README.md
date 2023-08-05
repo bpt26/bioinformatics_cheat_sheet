@@ -22,10 +22,18 @@ conda activate bioinformatics`
 
 ### Install and Verify Tools:
 
-Here are the tools that the code in this repository requires. I've added a description and link to each tool's API below:
+Here are the tools that the code in this repository requires. I've added a description and link to each tool's documentation below:
 
 `conda install -c bioconda samtools bedtools biopython gtfparse  
 pip install gseapy`
+
+| Package | Description | Link to Documentation |
+| -------- | -------- | -------- |
+| Biopython | Manipulating, translating, and reverse-complementing sequences, among others | https://biopython.org/wiki/Documentation |
+| samtools | Sorting, viewing, and otherwise performing analyses involving .sam or .bam files, which are the primary outputs for most RNA-seq pipelines | http://www.htslib.org/doc/samtools.html#DESCRIPTION |
+| bedtools | [bedtools intersect](https://bedtools.readthedocs.io/en/latest/content/tools/intersect.html#u-unique-reporting-the-mere-presence-of-any-overlapping-features) in particular finds overlaps between two sets of genetic features, in .bed format | https://bedtools.readthedocs.io/en/latest/# |
+| gtfparse | Reads .gtf files, which are the primary format for annotating the locations of genes and transcripts | https://pypi.org/project/gtfparse/ |
+| gseapy |  | https://gseapy.readthedocs.io/en/latest/introduction.html |
 
 You'll also want to ensure that these are properly installed, which you can accomplish by running the following code snippet:
 
