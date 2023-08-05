@@ -11,10 +11,11 @@ To ensure that downloads here don't interfere with your current working environm
 1. Download the Miniforge installer for your platform from the Miniforge releases page: [Miniforge Releases](https://github.com/conda-forge/miniforge/releases)
 2. Open a terminal or command prompt.
 3. Navigate to the directory containing the downloaded installer.
-4. Run the installer script:  
-   ```
-   bash Miniforge3-latest-MacOSX-x86_64.sh  # Replace with the actual filename
-   ```
+4. Run the installer script:
+   
+```
+bash Miniforge3-latest-MacOSX-x86_64.sh  # Replace with the actual filename
+```
 
 ### Create and Activate Conda Environment:  
 
