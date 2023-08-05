@@ -42,10 +42,10 @@ Here are the tools that the code in this repository requires, installed in the p
 You'll also want to ensure that these are properly installed, which you can accomplish by running the following code snippet:
 
 ```
-samtools --version<br>
-bedtools --version<br>
-python -c "import Bio; print(Bio.__version__)"<br>
-python -c "import gtfparse; print(gtfparse.__version__)"<br>
+samtools --version
+bedtools --version
+python -c "import Bio; print(Bio.__version__)"
+python -c "import gtfparse; print(gtfparse.__version__)"
 ```
 
 ### Clone this repository:
