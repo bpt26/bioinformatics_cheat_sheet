@@ -38,11 +38,11 @@ pip install gseapy`
 You'll also want to ensure that these are properly installed, which you can accomplish by running the following code snippet:
 
 ```
-samtools --version  
-bedtools --version  
-python -c "import Bio; print(Bio.__version__)"  
-python -c "import gtfparse; print(gtfparse.__version__)"  
-gseapy --version  
+samtools --version<br>
+bedtools --version<br>
+python -c "import Bio; print(Bio.__version__)"<br>
+python -c "import gtfparse; print(gtfparse.__version__)"<br>
+gseapy --version<br>
 ```
 
 Under this setup, you'll need to activate the environment (conda activate myenv) every time you want to use these tools and packages.
