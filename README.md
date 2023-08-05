@@ -21,8 +21,10 @@ bash Miniforge3-latest-MacOSX-x86_64.sh  # Replace with the actual filename
 
 We will call this environment "bioinformatics_env":
 ```
-mamba create -n bioinformatics_env samtools bedtools biopython gtfparse star sra-tools
+mamba create -n bioinformatics_env 
 conda activate bioinformatics_env
+mamba install -c bioconda samtools bedtools biopython gtfparse star sra-tools
+pip install gseapy
 ```
 
 ### Verify Tools:
