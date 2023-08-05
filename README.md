@@ -17,22 +17,17 @@ To ensure that downloads here don't interfere with your current working environm
 bash Miniforge3-latest-MacOSX-x86_64.sh  # Replace with the actual filename
 ```
 
-### Create and Activate Conda Environment:  
+### Create Conda Environment and Install tools:  
 
-We will call this environment "bioinformatics":
+We will call this environment "bioinformatics_env":
 ```
-conda create -n bioinformatics  
-conda activate bioinformatics
+mamba create -n bioinformatics_env samtools bedtools biopython gtfparse star sra-tools
+conda activate bioinformatics_env
 ```
 
-### Install and Verify Tools:
+### Verify Tools:
 
-Here are the tools that the code in this repository requires. I've added a description and link to each tool's documentation below:
-
-```
-mamba install -c bioconda samtools bedtools biopython gtfparse star sra-tools 
-pip install gseapy
-```
+Here are the tools that the code in this repository requires, installed in the previous step:
 
 | Package | Description | Link to Documentation |
 | -------- | -------- | -------- |
