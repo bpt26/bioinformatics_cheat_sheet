@@ -20,8 +20,8 @@ To ensure that downloads here don't interfere with your current working environm
 
 We will call this environment "bioinformatics":
 ```
-conda create -n bioinformatics  
-conda activate bioinformatics
+mamba create -n bioinformatics  
+mamba activate bioinformatics
 ```
 
 ### Install and Verify Tools:
@@ -29,7 +29,7 @@ conda activate bioinformatics
 Here are the tools that the code in this repository requires. I've added a description and link to each tool's documentation below:
 
 ```
-conda install -c bioconda samtools bedtools biopython gtfparse star sra-tools 
+mamba install -c bioconda samtools bedtools biopython gtfparse star sra-tools 
 pip install gseapy
 ```
 
