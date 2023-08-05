@@ -23,8 +23,7 @@ We will call this environment "bioinformatics_env":
 ```
 conda create -n bioinformatics_env 
 conda activate bioinformatics_env
-mamba install -c bioconda samtools bedtools biopython gtfparse star sra-tools
-pip install gseapy
+mamba install -c bioconda samtools bedtools biopython gtfparse star sra-tools gseapy
 ```
 
 ### Verify Tools:
@@ -39,7 +38,6 @@ Here are the tools that the code in this repository requires, installed in the p
 | gtfparse | Reads .gtf files, which are the primary format for annotating the locations of genes and transcripts | https://pypi.org/project/gtfparse/ |
 | STAR | Creates an index for your genome of interest, and aligns RNA-seq reads to it | https://github.com/alexdobin/STAR |
 | fastq-dump | Downloads .fastq files from the Sequence Read Archive (SRA) | https://github.com/ncbi/sra-tools |
-| gseapy | Runs tests for enrichment of pathways or gene sets, given lists of genes | https://gseapy.readthedocs.io/en/latest/introduction.html |
 
 You'll also want to ensure that these are properly installed, which you can accomplish by running the following code snippet:
 
@@ -48,7 +46,6 @@ samtools --version<br>
 bedtools --version<br>
 python -c "import Bio; print(Bio.__version__)"<br>
 python -c "import gtfparse; print(gtfparse.__version__)"<br>
-gseapy --version<br>
 ```
 
 ### Clone this repository:
