@@ -33,7 +33,7 @@ pip install gseapy`
 | samtools | Sorting, viewing, and otherwise performing analyses involving .sam or .bam files, which are the primary outputs for most RNA-seq pipelines | http://www.htslib.org/doc/samtools.html#DESCRIPTION |
 | bedtools | [bedtools intersect](https://bedtools.readthedocs.io/en/latest/content/tools/intersect.html#u-unique-reporting-the-mere-presence-of-any-overlapping-features) in particular finds overlaps between two sets of genetic features, in .bed format | https://bedtools.readthedocs.io/en/latest/# |
 | gtfparse | Reads .gtf files, which are the primary format for annotating the locations of genes and transcripts | https://pypi.org/project/gtfparse/ |
-| gseapy |  | https://gseapy.readthedocs.io/en/latest/introduction.html |
+| gseapy | Runs tests for enrichment of pathways or gene sets, given lists of genes | https://gseapy.readthedocs.io/en/latest/introduction.html |
 
 You'll also want to ensure that these are properly installed, which you can accomplish by running the following code snippet:
 
